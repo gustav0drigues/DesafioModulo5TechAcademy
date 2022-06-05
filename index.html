@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>O Som Ao Meu Redor</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="img/favicon-32x32.png" alt="logo">
+            <div class="menu-section">
+                <div class="container-menu">
+                    <input type="checkbox" id="checkbox-menu">
+                    <label for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Artigos</a>
+                        </li>
+                        <li>
+                            <a href="#">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-main">
+            <div>
+                <h2><span>Inscreva-se agora</span></h2>
+                <h2>na newsletter</h2>
+                <h3>Música alimenta a alma e nos faz sentir vivos.<br>
+                    Fique por dentro de todas as nossas novidades!</h3>
+                <form>
+                    <input type="text" placeholder="João da Silva">
+                    <input type="email" placeholder="seuemail@email.com">
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+
+            <img src="img/music-player-2951399_1280.jpg" alt="mplayer">
+        </div>
+    </main>
+
+    <section class="cards">
+        <div class="card">
+            <div class="image">
+                <img src="./img/vinyl-record-5958903_1280.jpg" alt="vinyl">
+            </div>
+            <div class="content">
+                <p class="title text-medium">Sem música a vida seria um erro (Nietzche)</p>
+            <div class="info">
+                <p class="text-medium">60 minutos</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="./img/vinyl-record-5958903_1280.jpg" alt="vinyl">
+            </div>
+            <div class="content">
+                <p class="title text-medium">Sem música a vida seria um erro (Nietzche)</p>
+            <div class="info">
+                <p class="text-medium">60 minutos</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="./img/vinyl-record-5958903_1280.jpg" alt="vinyl">
+            </div>
+            <div class="content">
+                <p class="title text-medium">Sem música a vida seria um erro (Nietzche)</p>
+            <div class="info">
+                <p class="text-medium">60 minutos</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="./img/vinyl-record-5958903_1280.jpg" alt="vinyl">
+            </div>
+            <div class="content">
+                <p class="title text-medium">Sem música a vida seria um erro (Nietzche)</p>
+            <div class="info">
+                <p class="text-medium">60 minutos</p>
+            </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="form">
+        <form method="get">
+        <fieldset>
+            <legend>Contato</legend>
+        <div>
+        <p><label for="nome">Nome Completo*: </label><input type="text" name="nome" placeholder="João da Silva" required size="40px" id="nome"></p>
+        <p><label for="sobrenome">E-mail*: </label><input type="email" name="email" placeholder="joaosilva@email.com" required size="40px" id="sobrenome"></p>
+        <p><label for="nascimento">Data de Nascimento: </label><input type="date" id="dtini" name="dtinicio" min="1920-01-01" max="2022-12-31" size="40px" id="nascimento"></p>
+        <div class="contact-selection">
+            <label for="contato">Tipo de contato*:</label>
+            <select id="contato">
+                <option value="1" disabled>Selecione sua opção</option>
+                <option value="2">Informação</option>
+                <option value="3">Dúvida</option>
+                <option value="4">Sugestão</option>
+                <option value="5">Reclamação</option>
+                </option><select name="contato" id="icontato"></select>
+        </div>
+        <div>
+        <textarea id="texto" name="texto" rows="8" cols="60">Sua mensagem aqui</textarea>
+        </div>
+        <div class="concordo">
+            <input type="checkbox" id="checkbox-agree" name="concordo"
+                    <label for="concordo">Concordo com os termos</label>
+        </div>
+            <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
