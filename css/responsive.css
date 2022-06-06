@@ -4,7 +4,9 @@
     }
 
 main .container-main img{
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h2{
