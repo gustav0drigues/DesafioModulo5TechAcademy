@@ -7,6 +7,7 @@
     outline: 0;
 }
 
+
 html, body{
     height: 100vh;
     font-family: 'Montserrat', serif;
@@ -160,14 +161,24 @@ form [type="submit"]:hover{
     margin-bottom:0px;
 }
 
-.contato{
-    width: 600px;
+fieldset{
+    background-color: #d3e9e6;
+    width: 400px;
     font-size: 16px;
+    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(71, 64, 64);
     margin: 100px auto;
+    border-radius: 5px;
+}
+
+select{
+    margin-top: 20px;
+    width: 380px;
+    font-size: 14px;
+    display: inline-block;
 }
 
 textarea{
@@ -185,15 +196,11 @@ textarea{
     margin: 20px auto;
 }
 
-form > div{
-    margin-bottom: 20px;
-}
-
-
 label{
-    display: flex;
+    display: inline-flex;
     width: 400px;
     text-align: right;
+    font-size: 12px;
 }
 
 #checkbox-agree{
@@ -205,18 +212,4 @@ label{
 .contact-selection label{
     display:flex;
     align-items: center;
-    margin-left: 10px;
-}
-
-#form{
-    margin-top: 50px;
-    display:;
-    width:600px;
-    background-color: rgb(174, 168, 168);
-}
-
-#form label{
-    font-size: 14px;
-    font-weight: 500;
-    position: relative;
 }
