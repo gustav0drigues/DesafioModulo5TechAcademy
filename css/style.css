@@ -68,8 +68,8 @@ main{
 
 .container-main img{
     display: grid;
-    width: 400px;
-    justify-content: space-between;
+    width: 450px;
+    justify-content: stretch;
     margin: auto;
 }
 
