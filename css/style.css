@@ -9,6 +9,7 @@
 
 
 html, body{
+    background: #e9f3f2;
     height: 100vh;
     font-family: 'Montserrat', serif;
     text-rendering: optimizeLegibility;
@@ -57,13 +58,21 @@ main{
     margin-bottom: 100px;
 }
 
-main .container{
+.container-main{
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 980px;
     margin: 100px auto 0px auto;
 }
+
+.container-main img{
+    display: grid;
+    width: 400px;
+    justify-content: space-between;
+    margin: auto;
+}
+
 
 h2{
     color: #ee624d;
@@ -155,6 +164,7 @@ form [type="submit"]:hover{
 
 .content{
     margin: 20px;
+    color: white;
 }
 
 .title{
